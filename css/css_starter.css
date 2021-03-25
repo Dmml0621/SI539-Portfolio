@@ -43,7 +43,6 @@ a.skip{
     padding: 6px;
     position: absolute;
     top: -40px;
-    -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
     z-index: 1;
 }
@@ -69,10 +68,9 @@ h1 {
     color: white;
     padding: 5px;
     font-size: 28pt;
-    background: linear-gradient(0deg, #f29914 25%, #74dff7 65%);
-    background-clip: text;
+    background:  -webkit-linear-gradient(0deg, #f29914 25%, #74dff7 65%);
     -webkit-background-clip: text;
-    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
