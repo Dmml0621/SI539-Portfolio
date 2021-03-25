@@ -1,0 +1,21 @@
+.nav_configuration {
+    border-width: 0 0 2px 0;
+    border-color: aquamarine;
+    border-style: solid;
+    font-size: 16pt;
+}
+
+main {
+    background: -webkit-linear-gradient(to top, #1565C0, #b92b27); 
+    background: linear-gradient(to top, #1565C0, #b92b27);
+}
+
+h2 {
+    font-size: 12pt;
+}
+
+main p {
+    text-align: center;
+    font-size: 10pt;
+    color: white;
+}

@@ -1,0 +1,131 @@
+header {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+}
+
+li a {
+    color: darkorange;
+}
+
+.logo {
+    width: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a.skip{
+    background: black;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+
+a.skip:focus{
+    top: 20px;
+    color: white;
+    text-decoration-style: solid;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    line-height: 2;
+    color: white;
+    padding: 5px;
+    font-size: 28pt;
+    background: linear-gradient(0deg, #f29914 25%, #74dff7 65%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+h2 > a {
+    color: darkorange;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+    margin: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+    font-family: 'Crete Round', sans-serif;
+}
+
+.choice {
+    display: flex;
+    flex-basis: 100%;
+}
+
+.choice div {
+    margin: 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.introduction p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}

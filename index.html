@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image/png" href="images/favicon.jpg"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+        <link rel="stylesheet" type="text/css" href="css/css_starter.css">
+        <link rel="stylesheet" type="text/css" href="css/style_index.css">
+        <script src="js/warn.js"></script>
+        <title>Welcome to Desktop PC DIY!</title>
+    </head>
+    <body>
+        <a class = "skip" href="#main">Skip to Main Content</a>
+        <header>
+            <img class="logo" src="images/logo.jpg" alt="">
+            <nav>  
+                <ul class="=nav_links">
+                    <li class="nav_start"><a href="index.html">Start</a></li>
+                    <li class="nav_cpu_motherboard"><a href="" onclick="invalid_cpu()">CPU&MotherBoard</a></li>
+                    <li class="nav_gpu"><a href="" onclick="invalid_gpu()">GPU</a></li>
+                    <li class="nav_configuration"><a href="" onclick="invalid_config()">Config</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <h1>Welcome to Desktop PC DIY!</h1>
+            <h2>Let's start with choosing your <a href="#brand_intro">brand</a>!</h2>
+            <div class='choice'>
+                <div class='amd_yes'>
+                    <img src="images/amd_yes.jpeg" alt="">
+                    <br>
+                    <a href="cpu_board_amd.html">AMD YES!!!</a>
+                </div>
+                <div class='intel_no'>
+                    <img src="images/intel_no.jpg" alt="">
+                    <br>
+                    <a href="cpu_board_intel.html">INTEL sounds GREAT...</a>
+                </div>
+            </div>
+            <div id='brand_intro' class='introduction'>
+                <div class='amd_intro'>
+                    <h3>Amd</h3>
+                    <p>intro (unfinished)</p>
+                    <p class="wiki"><a href="https://www.amd.com/">amd.com</a></p>
+                </div>
+                <div class='intel_intro'>
+                    <h3>Intel</h3>
+                    <p>intro (unfinished)</p>
+                    <p class="wiki"><a href="https://www.intel.com/content/www/us/en/homepage.html">intel.com</a></p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>University of Michigan School of Information <br/>
+                &copy; Mingliang Duanmu - SI539 Web Design Winter 2021</p>
+        </footer>
+    </body>
+</html>

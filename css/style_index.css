@@ -1,0 +1,47 @@
+.nav_start {
+    border-width: 0 0 2px 0;
+    border-color: aquamarine;
+    border-style: solid;
+    font-size: 16pt;
+}
+
+main {
+    background: -webkit-linear-gradient(to top, #1565C0, #b92b27); 
+    background: linear-gradient(to top, #1565C0, #b92b27);
+}
+
+.choice a {
+    display: block;
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px;
+}
+
+.amd_yes a {
+    font-size: 32pt;
+    color: aqua;
+}
+
+.intel_no a {
+    font-size: 20pt;
+    color: red;
+}
+
+.choice {
+    flex-direction: column;
+}
+
+.choice img {
+    width: 95%;
+}
+
+p {
+    text-align: center;
+    font-size: 14pt;
+    color: white;
+    margin: 5px;
+}
+
+.wiki {
+    text-align: center;
+    font-size: 8pt;
+} 

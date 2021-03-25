@@ -1,0 +1,66 @@
+.nav_gpu {
+    border-width: 0 0 2px 0;
+    border-color: aquamarine;
+    border-style: solid;
+    font-size: 16pt;
+}
+
+main {
+    background: -webkit-linear-gradient(to right, green, darkred);
+    background: linear-gradient(to right, green, darkred); 
+}
+
+h2 {
+    font-size: 10pt;
+}
+
+.choice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.huang_su {
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+    grid-column: 1 / span 2;
+}
+
+.choice p {
+    font-size: 16px;
+    margin: 10px;
+    color: white;
+}
+
+.choice a {
+    font-size: 16px;
+    margin: 10px;
+    color: aqua;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.rtx, .radeon {
+    grid-row-start: 2;
+    display: flex;
+    flex-direction: column;
+    background: black;
+}
+
+.nv_head, .amd_head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gpu_logo {
+    width: 20%;
+}
+
+.nv_gpu, .amd_gpu {
+    margin: 5px;
+    width: 100%;
+}

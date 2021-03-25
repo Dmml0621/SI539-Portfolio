@@ -1,0 +1,55 @@
+.nav_cpu_motherboard {
+    border-width: 0 0 2px 0;
+    border-color: aquamarine;
+    border-style: solid;
+    font-size: 16pt;
+}
+
+main {
+    background: -webkit-linear-gradient(to bottom, #1565C0, #333333);
+    background: linear-gradient(to bottom, #1565C0,  #333333); 
+}
+
+h2 {
+    font-size: 10pt;
+}
+
+h3 {
+    font-size: 12pt;
+}
+
+.choice {
+    flex-direction: row;
+}
+
+.choice a {
+    font-family: 'Permanent Marker', cursive;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 12px;
+    color: aqua;
+}
+
+.choice div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.cpu {
+    width: 70%;
+}
+
+.motherboard {
+    width: 120%;
+}
+
+.plus {
+    margin: 10px;
+    font-size: 12px;
+    color: azure;
+}
