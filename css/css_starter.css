@@ -7,16 +7,15 @@ header {
 }
 
 nav {
-    width: 80%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 ul {
     list-style: none;
-    text-align: right;
+    text-align: center;
+    line-height: 1.5;
     font-size: 10pt;
-    font-weight: bold;
 }
 
 li {
@@ -86,8 +85,8 @@ h2 > a {
 h3 {
     text-align: center;
     color: white;
-    font-size: 20pt;
-    margin: 5px;
+    font-size: 16pt;
+    margin: 20px;
 }
 
 body {
@@ -118,12 +117,69 @@ footer{
 .introduction {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    align-items: center;
     margin: 10px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .introduction p {
     text-align: center;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+}
+
+.introduction p a {
+    text-decoration: underline;
+}
+
+table {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-collapse: collapse;
+    margin: 10px;
+    line-height: 1.5;
+}
+  
+td, th {
+    border: 1px solid grey;
+    text-align: center;
+    padding: 10px;
+}
+
+.category_nv {
+    font-size: 14px;
+    font-weight: bold;
+    color: lightgreen;
+}
+
+.category_amd {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+.category_intel {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(89, 211, 252);
+}
+
+@media screen and (min-width: 768px) {
+    ul {
+        font-size: 16pt;
+        font-weight: bold;
+    }
+
+    nav {
+        justify-content: flex-end;
+    }
+
+    .introduction {
+        flex-direction: row;
+    }
 }

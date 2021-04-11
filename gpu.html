@@ -28,7 +28,7 @@
         </header>
         <main id="main">
             <h1>One more step: GPU!</h1>
-            <h2>Want <a href="#amd_cpu_intro">help</a> on decision?</h2>
+            <h2>Want <a href="#gpu_intro">help</a> on decision?</h2>
             <div class="choice">
                 <img class="huang_su" src="images/nv_amd.jpg" alt="">
                 <div class="rtx">
@@ -37,11 +37,11 @@
                         <p>Nvidia RTX 30 Series</p>
                     </div>
                     <img class="nv_gpu" src="images/rtx3060Ti.jpg" alt="">
-                    <a href="configuration.html">RTX 3060Ti</a>
+                    <a href="configuration.html" onclick="alert('Sorry, final page is not finished!')">RTX 3060Ti</a>
                     <img class="nv_gpu" src="images/rtx3070.jpg" alt="">
-                    <a href="configuration.html">RTX 3070</a>
+                    <a href="configuration.html" onclick="alert('Sorry, final page is not finished!')">RTX 3070</a>
                     <img class="nv_gpu" src="images/rtx3080.jpg" alt="">
-                    <a href="configuration.html">RTX 3080</a>
+                    <a href="configuration.html" onclick="alert('Sorry, final page is not finished!')">RTX 3080</a>
                 </div>
                 <div class="radeon">
                     <div class="amd_head">
@@ -49,16 +49,83 @@
                         <img class="gpu_logo" src="images/amd-radeon-logo.png" alt="">
                     </div>
                     <img class="amd_gpu" src="images/rx6700xt.jpg" alt="">
-                    <a href="configuration.html">RX 6700 XT</a>
+                    <a href="configuration.html" onclick="alert('Sorry, final page is not finished!')">RX 6700 XT</a>
                     <img class="amd_gpu" src="images/rx6800xt.jpg" alt="">
-                    <a href="configuration.html">RX 6800 XT</a>
+                    <a href="configuration.html" onclick="alert('Sorry, final page is not finished!')">RX 6800 XT</a>
                     <img class="amd_gpu" src="images/rx6900xt.jpg" alt="">
-                    <a href="configuration.html">RX 6900 XT</a>
+                    <a href="configuration.html" onclick="alert('Sorry, final page is not finished!')">RX 6900 XT</a>
                 </div>
             </div>
+            <h3>GPU Model Comparison</h3>
             <div id='gpu_intro' class='introduction'>
-                <h3>GPU Model Comparison (unfinished)</h3>
-                <p>paragraph content</p>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Nvidia RTX</th>
+                            <th class="category_nv">3060Ti</th>
+                            <th class="category_nv">3070</th>
+                            <th class="category_nv">3080</th>
+                        </tr>
+                        <tr>
+                            <td class="category_nv">CUDA Cores</td>
+                            <td>4864</td>
+                            <td>5888</td>
+                            <td>8704</td>
+                        </tr>
+                        <tr>
+                            <td class="category_nv">Boost Clock<br>(GHz)</td>
+                            <td>1.67</td>
+                            <td>1.73</td>
+                            <td>1.71</td>
+                        </tr>
+                        <tr>
+                            <td class="category_nv">Memory Config</td>
+                            <td>8G<br>GDDR6</td>
+                            <td>8G<br>GDDR6</td>
+                            <td>10G<br>GDDR6X</td>
+                        </tr>
+                        <tr>
+                            <td class="category_nv">Memory Width</td>
+                            <td>256-bit</td>
+                            <td>256-bit</td>
+                            <td>320-bit</td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <th>AMD Radeon</th>
+                            <th class="category_amd">6700XT</th>
+                            <th class="category_amd">6800XT</th>
+                            <th class="category_amd">6900XT</th>
+                        </tr>
+                        <tr>
+                            <td class="category_amd">Stream Processor</td>
+                            <td>2560</td>
+                            <td>4608</td>
+                            <td>5120</td>
+                        </tr>
+                        <tr>
+                            <td class="category_amd">Boost Clock<br>(GHz)</td>
+                            <td>2.58</td>
+                            <td>2.25</td>
+                            <td>2.25</td>
+                        </tr>
+                        <tr>
+                            <td class="category_amd">Memory Config</td>
+                            <td>12G<br>GDDR6</td>
+                            <td>16G<br>GDDR6</td>
+                            <td>16G<br>GDDR6</td>
+                        </tr>
+                        <tr>
+                            <td class="category_amd">Memory Width</td>
+                            <td>192-bit</td>
+                            <td>256-bit</td>
+                            <td>256-bit</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </main>
         <footer>

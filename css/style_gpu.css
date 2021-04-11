@@ -64,3 +64,9 @@ h2 {
     margin: 5px;
     width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+    .nav_gpu {
+        font-size: 20pt;
+    }
+}
