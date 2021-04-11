@@ -122,6 +122,7 @@ footer{
     background-color: black;
     padding: 20px;
     border-radius: 20px;
+    justify-content: space-evenly;
 }
 
 .introduction p {
