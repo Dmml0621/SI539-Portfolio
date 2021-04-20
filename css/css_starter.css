@@ -54,6 +54,7 @@ a.skip:focus{
 
 main a:hover {
     text-decoration: underline;
+    border: 2px dashed white;
 }
 
 main {
@@ -78,7 +79,7 @@ h2 {
     padding: 10px;
 }
 
-h2 > a {
+h2 a {
     color: darkorange;
 }
 
@@ -93,12 +94,16 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16pt;
-    font-family: 'Crete Round', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .choice {
     display: flex;
     flex-basis: 100%;
+}
+
+.choice a {
+    font-family: 'Varela Round', sans-serif;
 }
 
 .choice div {
@@ -170,6 +175,29 @@ td, th {
     color: rgb(89, 211, 252);
 }
 
+@media (prefers-reduced-motion) {
+    * {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+}
+
 @media screen and (min-width: 768px) {
     ul {
         font-size: 16pt;
@@ -182,5 +210,31 @@ td, th {
 
     .introduction {
         flex-direction: row;
+    }
+
+    .introduction p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    ul {
+        font-size: 20pt;
+    }
+
+    table, .category_nv, .category_amd {
+        font-size: 18px;
+    }
+
+    td, th {
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 18pt;
+    }
+
+    .introduction p, .introduction p a {
+        font-size: 20px;
     }
 }

@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Crete+Round&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/html5reset.css">
         <link rel="stylesheet" type="text/css" href="css/css_starter.css">
         <link rel="stylesheet" type="text/css" href="css/style_configuration.css">
@@ -20,20 +20,66 @@
             <nav>  
                 <ul class="=nav_links">
                     <li class="nav_start"><a href="index.html">Start</a></li>
-                    <li class="nav_cpu_motherboard"><a href="">CPU&MotherBoard</a></li>
+                    <li class="nav_cpu_amd"><a href="cpu_board_amd.html">AMD CPU</a></li>
+                    <li class="nav_cpu_intel"><a href="cpu_board_intel.html">Intel CPU</a></li>
                     <li class="nav_gpu"><a href="gpu.html">GPU</a></li>
-                    <li class="nav_configuration"><a href="">Config</a></li>
+                    <li class="nav_configuration"><a href="configuration.html">Config</a></li>
                 </ul>
             </nav>
         </header>
         <main id="main">
-            <h1>Almost Done!</h1>
-            <h2>We provide recommendations for the rest components.</h2>
-            <div class="components">
-                <br>
-                <br>
-                <p>Here should be a price summary of CPU+Board+GPU, realized by JS</p>
-                <p>Here should be a hardware list with price and links to buy</p>
+            <div class="para">
+                <h1>Almost &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Done!</h1>
+            </div>
+            <div class="nonpara">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p>Flip here !! <br> You will see the price summary of choice of <br> CPU + Board + GPU </p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Ooops! <br> This webpage is purely designed for interface display. <br> The inner logic realized by <a href="#">JS</a> is not implemented!</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <h2>We provide recommendations for the rest components.</h2>
+                <div class="components">
+                    <div>
+                        <img src="images/m2ssd.png" alt="">
+                        <p>Samsung 970 EVO Plus SSD (1 TB)</p>
+                    </div>
+                    <div>
+                        <img src="images/memory.png" alt="">
+                        <p>G. Skill Trident Z Neo DDR4 Memory (3200 MHz)</p>
+                    </div>
+                    <div>
+                        <img src="images/watercooler.png" alt="">
+                        <p>NZXT 360mm water cooler</p>
+                    </div>
+                    <div>
+                        <img src="images/powersupply.png" alt="">
+                    <p>Corsair 750W gold certified power supply</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <form action="https://formspree.io/f/mleadllj" method="POST">
+                      <legend>Please leave your contact and message!</legend>  
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name" placeholder="Your name..">
+                  
+                      <label for="country">Country</label>
+                      <input type="text" id="country" name="country" placeholder="Your country..">
+                
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" placeholder="Your email..">
+                  
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" placeholder="Leave your message.."></textarea>
+                  
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
             </div>
         </main>
         <footer>

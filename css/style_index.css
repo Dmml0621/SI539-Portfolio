@@ -11,18 +11,25 @@ main {
 }
 
 .choice a {
-    display: block;
-    font-family: 'Permanent Marker', cursive;
+    background-color: black;
+    border-radius: 10px;
     padding: 10px;
+    margin: 10px;
+}
+
+.amd_yes, .intel_no {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .amd_yes a {
-    font-size: 32pt;
+    font-size: 16pt;
     color: aqua;
 }
 
 .intel_no a {
-    font-size: 20pt;
+    font-size: 16pt;
     color: red;
 }
 
@@ -31,7 +38,7 @@ main {
 }
 
 .choice img {
-    width: 95%;
+    width: 90%;
 }
 
 .introduction {
@@ -52,6 +59,34 @@ p {
 
 @media screen and (min-width: 768px) {
     .nav_start {
+        font-size: 22pt;
+    }
+
+    .choice a {
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    .amd_yes a {
         font-size: 20pt;
     }
+    
+    .intel_no a {
+        font-size: 20pt;
+    }
+
+    .choice {
+        flex-direction: row;
+    }
+
+    .choice div {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav_start {
+        font-size: 28pt;
+    }
+
 }

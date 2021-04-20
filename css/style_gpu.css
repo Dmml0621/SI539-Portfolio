@@ -26,8 +26,15 @@ h2 {
 .huang_su {
     display: block;
     margin: 10px auto;
-    width: 90%;
+    width: 95%;
     grid-column: 1 / span 2;
+    animation-name: emerge;
+    animation-duration: 1.5s;
+}
+
+@keyframes emerge {
+    from {width: 0%; opacity: 0;}
+    to {width: 95%; opacity: 1;}
 }
 
 .choice p {
@@ -40,7 +47,6 @@ h2 {
     font-size: 16px;
     margin: 10px;
     color: aqua;
-    font-family: 'Permanent Marker', cursive;
 }
 
 .rtx, .radeon {
@@ -48,6 +54,13 @@ h2 {
     display: flex;
     flex-direction: column;
     background: black;
+    animation-name: list;
+    animation-duration: 1.5s;
+}
+
+@keyframes list {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .nv_head, .amd_head {
@@ -62,11 +75,52 @@ h2 {
 
 .nv_gpu, .amd_gpu {
     margin: 5px;
-    width: 100%;
+    width: 90%;
+    margin: auto;
+    transition: all 1s ease;
+}
+
+.nv_gpu:hover {
+    transform: scale(1.2);
+    border: 1px solid white;
+}
+
+.amd_gpu:hover {
+    transform: scale(1.2);
+    border: 1px solid white;
+}
+
+@media (prefers-reduced-motion) {
+    .rtx, .radeon, .huang_su {
+        animation: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .nav_gpu {
-        font-size: 20pt;
+        font-size: 22pt;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav_gpu {
+        font-size: 28pt;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .huang_su {
+        width: 70%;
+    }
+
+    @keyframes emerge {
+        from {width: 0%; opacity: 0;}
+        to {width: 70%; opacity: 1;}
+    }
+
+    .nv_gpu, .amd_gpu {
+        width: 80%;
     }
 }

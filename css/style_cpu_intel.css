@@ -1,4 +1,4 @@
-.nav_cpu_motherboard {
+.nav_cpu_intel {
     border-width: 0 0 2px 0;
     border-color: aquamarine;
     border-style: solid;
@@ -19,7 +19,6 @@ h2 {
 }
 
 .choice a {
-    font-family: 'Permanent Marker', cursive;
     background-color: black;
     border-radius: 8px;
     padding: 10px;
@@ -52,11 +51,29 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
-    .nav_cpu_motherboard {
-        font-size: 20pt;
+    .nav_cpu_intel {
+        font-size: 22pt;
     }
 
     .plus {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav_cpu_intel {
+        font-size: 28pt;
+    }
+
+    .plus {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .choice a {
         font-size: 16px;
     }
 }
