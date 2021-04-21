@@ -84,7 +84,7 @@ p {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     .nav_start {
         font-size: 28pt;
     }

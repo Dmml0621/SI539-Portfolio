@@ -60,7 +60,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     .nav_cpu_intel {
         font-size: 28pt;
     }

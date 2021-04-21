@@ -90,9 +90,13 @@ h2 {
     border: 1px solid white;
 }
 
-@media (prefers-reduced-motion) {
+@media screen and (prefers-reduced-motion: reduce) {
     .rtx, .radeon, .huang_su {
         animation: none;
+    }
+
+    .nv_gpu, .amd_gpu {
+        transition: none;
     }
 }
 
@@ -102,7 +106,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     .nav_gpu {
         font-size: 28pt;
     }
