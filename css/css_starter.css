@@ -207,6 +207,10 @@ td, th {
         padding: 15px;
     }
 
+    h1 {
+        font-size: 40pt;
+    }
+
     h3 {
         font-size: 18pt;
     }

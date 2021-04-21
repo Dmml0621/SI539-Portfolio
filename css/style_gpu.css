@@ -127,4 +127,12 @@ h2 {
     .nv_gpu, .amd_gpu {
         width: 80%;
     }
+
+    .rtx a, .radeon a {
+        font-size: 16pt;
+    }
+
+    .rtx p, .radeon p {
+        font-size: 14pt;
+    }
 }

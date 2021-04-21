@@ -183,4 +183,8 @@ legend {
     .flip-card {
         width: 60%;
     }
+
+    .components p {
+        font-size: 16pt;
+    }
 }
